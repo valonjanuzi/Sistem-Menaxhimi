@@ -1,0 +1,10 @@
+C:\Users\Valon\Desktop\Econtact\Econtact\bin\Debug\Econtact.exe.config
+C:\Users\Valon\Desktop\Econtact\Econtact\bin\Debug\Econtact.exe
+C:\Users\Valon\Desktop\Econtact\Econtact\bin\Debug\Econtact.pdb
+C:\Users\Valon\Desktop\Econtact\Econtact\obj\Debug\Econtact.csprojResolveAssemblyReference.cache
+C:\Users\Valon\Desktop\Econtact\Econtact\obj\Debug\Econtact.Econtact.resources
+C:\Users\Valon\Desktop\Econtact\Econtact\obj\Debug\Econtact.Properties.Resources.resources
+C:\Users\Valon\Desktop\Econtact\Econtact\obj\Debug\Econtact.csproj.GenerateResource.Cache
+C:\Users\Valon\Desktop\Econtact\Econtact\obj\Debug\Econtact.csproj.CoreCompileInputs.cache
+C:\Users\Valon\Desktop\Econtact\Econtact\obj\Debug\Econtact.exe
+C:\Users\Valon\Desktop\Econtact\Econtact\obj\Debug\Econtact.pdb
