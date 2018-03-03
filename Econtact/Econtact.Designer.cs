@@ -84,9 +84,9 @@
             this.IblContactID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.IblContactID.Location = new System.Drawing.Point(32, 142);
             this.IblContactID.Name = "IblContactID";
-            this.IblContactID.Size = new System.Drawing.Size(103, 25);
+            this.IblContactID.Size = new System.Drawing.Size(104, 25);
             this.IblContactID.TabIndex = 2;
-            this.IblContactID.Text = "Kontakt ID";
+            this.IblContactID.Text = "Contact ID";
             // 
             // txtbocContactID
             // 
@@ -104,9 +104,9 @@
             this.lblFirstName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFirstName.Location = new System.Drawing.Point(32, 190);
             this.lblFirstName.Name = "lblFirstName";
-            this.lblFirstName.Size = new System.Drawing.Size(51, 25);
+            this.lblFirstName.Size = new System.Drawing.Size(106, 25);
             this.lblFirstName.TabIndex = 2;
-            this.lblFirstName.Text = "Emri";
+            this.lblFirstName.Text = "First Name";
             // 
             // txtboxFirstName
             // 
@@ -123,9 +123,9 @@
             this.lblLastName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLastName.Location = new System.Drawing.Point(32, 242);
             this.lblLastName.Name = "lblLastName";
-            this.lblLastName.Size = new System.Drawing.Size(81, 25);
+            this.lblLastName.Size = new System.Drawing.Size(106, 25);
             this.lblLastName.TabIndex = 2;
-            this.lblLastName.Text = "Mbiemri";
+            this.lblLastName.Text = "Last Name";
             // 
             // txtboxLastName
             // 
@@ -142,9 +142,9 @@
             this.lblContactNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblContactNumber.Location = new System.Drawing.Point(32, 292);
             this.lblContactNumber.Name = "lblContactNumber";
-            this.lblContactNumber.Size = new System.Drawing.Size(63, 25);
+            this.lblContactNumber.Size = new System.Drawing.Size(120, 25);
             this.lblContactNumber.TabIndex = 2;
-            this.lblContactNumber.Text = "Numri";
+            this.lblContactNumber.Text = "Contact NO.";
             // 
             // txtbocContactNumber
             // 
@@ -161,9 +161,9 @@
             this.lblAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAddress.Location = new System.Drawing.Point(32, 343);
             this.lblAddress.Name = "lblAddress";
-            this.lblAddress.Size = new System.Drawing.Size(75, 25);
+            this.lblAddress.Size = new System.Drawing.Size(85, 25);
             this.lblAddress.TabIndex = 2;
-            this.lblAddress.Text = "Adresa";
+            this.lblAddress.Text = "Address";
             // 
             // txtboxAddress
             // 
@@ -181,9 +181,9 @@
             this.lblGender.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblGender.Location = new System.Drawing.Point(32, 439);
             this.lblGender.Name = "lblGender";
-            this.lblGender.Size = new System.Drawing.Size(61, 25);
+            this.lblGender.Size = new System.Drawing.Size(77, 25);
             this.lblGender.TabIndex = 2;
-            this.lblGender.Text = "Gjinia";
+            this.lblGender.Text = "Gender";
             // 
             // cmbGender
             // 
@@ -257,7 +257,6 @@
             this.dgvContactList.RowTemplate.Height = 24;
             this.dgvContactList.Size = new System.Drawing.Size(696, 279);
             this.dgvContactList.TabIndex = 6;
-          
             this.dgvContactList.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvContactList_RowHeaderMouseClick);
             // 
             // label2
@@ -266,9 +265,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(533, 134);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(75, 25);
+            this.label2.Size = new System.Drawing.Size(86, 25);
             this.label2.TabIndex = 7;
-            this.label2.Text = "Kërko :";
+            this.label2.Text = "Search :";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // txtboxSearch
@@ -283,7 +282,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(1227, 12);
+            this.pictureBox2.Location = new System.Drawing.Point(1172, 12);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(52, 45);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -311,13 +310,13 @@
             this.Controls.Add(this.lblContactNumber);
             this.Controls.Add(this.txtboxLastName);
             this.Controls.Add(this.lblLastName);
+            this.Controls.Add(this.txtboxFirstName);
             this.Controls.Add(this.lblFirstName);
             this.Controls.Add(this.txtboxSearch);
             this.Controls.Add(this.IblContactID);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.txtboxFirstName);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Econtact";
             this.Text = "EContact";

@@ -91,7 +91,6 @@ namespace Econtact
         {
             // get data from data Grid
 
-
             int rowIndex = e.RowIndex;
             txtbocContactID.Text = dgvContactList.Rows[rowIndex].Cells[0].Value.ToString();
             txtboxFirstName.Text = dgvContactList.Rows[rowIndex].Cells[1].Value.ToString();
