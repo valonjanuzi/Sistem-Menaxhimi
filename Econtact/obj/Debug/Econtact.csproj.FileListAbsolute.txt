@@ -20,3 +20,15 @@ C:\Users\Valon\Desktop\Visual Studio Project\Econtact\obj\Debug\Econtact.csproj.
 C:\Users\Valon\Desktop\Visual Studio Project\Econtact\obj\Debug\Econtact.exe
 C:\Users\Valon\Desktop\Visual Studio Project\Econtact\obj\Debug\Econtact.pdb
 C:\Users\Valon\Desktop\Visual Studio Project\Econtact\obj\Debug\Econtact.csprojResolveAssemblyReference.cache
+C:\Users\Hp\Desktop\Programim i avancum projekti\Econtact\bin\Debug\Econtact.mdf
+C:\Users\Hp\Desktop\Programim i avancum projekti\Econtact\bin\Debug\Econtact_log.ldf
+C:\Users\Hp\Desktop\Programim i avancum projekti\Econtact\bin\Debug\Econtact.exe.config
+C:\Users\Hp\Desktop\Programim i avancum projekti\Econtact\bin\Debug\Econtact.exe
+C:\Users\Hp\Desktop\Programim i avancum projekti\Econtact\bin\Debug\Econtact.pdb
+C:\Users\Hp\Desktop\Programim i avancum projekti\Econtact\obj\Debug\Econtact.csprojResolveAssemblyReference.cache
+C:\Users\Hp\Desktop\Programim i avancum projekti\Econtact\obj\Debug\Econtact.Econtact.resources
+C:\Users\Hp\Desktop\Programim i avancum projekti\Econtact\obj\Debug\Econtact.Properties.Resources.resources
+C:\Users\Hp\Desktop\Programim i avancum projekti\Econtact\obj\Debug\Econtact.csproj.GenerateResource.cache
+C:\Users\Hp\Desktop\Programim i avancum projekti\Econtact\obj\Debug\Econtact.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Desktop\Programim i avancum projekti\Econtact\obj\Debug\Econtact.exe
+C:\Users\Hp\Desktop\Programim i avancum projekti\Econtact\obj\Debug\Econtact.pdb
