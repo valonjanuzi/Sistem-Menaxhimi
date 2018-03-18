@@ -35,14 +35,11 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.terminet_id = new System.Windows.Forms.TextBox();
             this.Emri = new System.Windows.Forms.TextBox();
             this.Mbiemri = new System.Windows.Forms.TextBox();
             this.Numri = new System.Windows.Forms.TextBox();
-            this.Data = new System.Windows.Forms.TextBox();
-            this.Koha = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.dgvterminetList = new System.Windows.Forms.DataGridView();
             this.button2 = new System.Windows.Forms.Button();
@@ -50,6 +47,9 @@
             this.UPDATE = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.txtboxSearch = new System.Windows.Forms.TextBox();
+            this.datepicker = new System.Windows.Forms.DateTimePicker();
+            this.label6 = new System.Windows.Forms.Label();
+            this.timepicker = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvterminetList)).BeginInit();
             this.SuspendLayout();
@@ -115,16 +115,6 @@
             this.label5.TabIndex = 6;
             this.label5.Text = "Data";
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(48, 369);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(47, 20);
-            this.label6.TabIndex = 7;
-            this.label6.Text = "Koha";
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -167,22 +157,6 @@
             this.Numri.Name = "Numri";
             this.Numri.Size = new System.Drawing.Size(205, 26);
             this.Numri.TabIndex = 14;
-            // 
-            // Data
-            // 
-            this.Data.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Data.Location = new System.Drawing.Point(166, 317);
-            this.Data.Name = "Data";
-            this.Data.Size = new System.Drawing.Size(205, 26);
-            this.Data.TabIndex = 15;
-            // 
-            // Koha
-            // 
-            this.Koha.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Koha.Location = new System.Drawing.Point(166, 367);
-            this.Koha.Name = "Koha";
-            this.Koha.Size = new System.Drawing.Size(205, 26);
-            this.Koha.TabIndex = 16;
             // 
             // button1
             // 
@@ -256,11 +230,45 @@
             this.txtboxSearch.Size = new System.Drawing.Size(602, 26);
             this.txtboxSearch.TabIndex = 23;
             // 
+            // datepicker
+            // 
+            this.datepicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.datepicker.ImeMode = System.Windows.Forms.ImeMode.On;
+            this.datepicker.Location = new System.Drawing.Point(166, 319);
+            this.datepicker.Name = "datepicker";
+            this.datepicker.Size = new System.Drawing.Size(205, 22);
+            this.datepicker.TabIndex = 24;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(48, 373);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(47, 20);
+            this.label6.TabIndex = 25;
+            this.label6.Text = "Koha";
+            // 
+            // timepicker
+            // 
+            this.timepicker.AllowDrop = true;
+            this.timepicker.Cursor = System.Windows.Forms.Cursors.SizeWE;
+            this.timepicker.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.timepicker.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.timepicker.Location = new System.Drawing.Point(166, 373);
+            this.timepicker.Name = "timepicker";
+            this.timepicker.ShowUpDown = true;
+            this.timepicker.Size = new System.Drawing.Size(205, 22);
+            this.timepicker.TabIndex = 26;
+            // 
             // Terminet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1214, 536);
+            this.Controls.Add(this.timepicker);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.datepicker);
             this.Controls.Add(this.txtboxSearch);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.UPDATE);
@@ -268,14 +276,11 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.dgvterminetList);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.Koha);
-            this.Controls.Add(this.Data);
             this.Controls.Add(this.Numri);
             this.Controls.Add(this.Mbiemri);
             this.Controls.Add(this.Emri);
             this.Controls.Add(this.terminet_id);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -284,7 +289,6 @@
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Terminet";
-            this.Text = "v";
             this.Load += new System.EventHandler(this.Terminet_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvterminetList)).EndInit();
@@ -301,14 +305,11 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox terminet_id;
         private System.Windows.Forms.TextBox Emri;
         private System.Windows.Forms.TextBox Mbiemri;
         private System.Windows.Forms.TextBox Numri;
-        private System.Windows.Forms.TextBox Data;
-        private System.Windows.Forms.TextBox Koha;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView dgvterminetList;
         private System.Windows.Forms.Button button2;
@@ -316,5 +317,8 @@
         private System.Windows.Forms.Button UPDATE;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox txtboxSearch;
+        private System.Windows.Forms.DateTimePicker datepicker;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.DateTimePicker timepicker;
     }
 }

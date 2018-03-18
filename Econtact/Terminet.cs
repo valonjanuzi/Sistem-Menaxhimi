@@ -33,12 +33,13 @@ namespace Econtact
                 c.Emri_tr = Emri.Text;
                 c.Mbiemri_tr = Mbiemri.Text;
                 c.Numri_tr = Numri.Text;
-                c.Data_tr = Data.Text;
-                c.Koha_tr = Koha.Text;
+                c.Data_tr = datepicker.Value.ToShortDateString();
+            c.Koha_tr = timepicker.Value.ToString("hh:mm:ss");
 
-                //inserting data into database
 
-                bool success = c.Insert(c);
+            //inserting data into database
+
+            bool success = c.Insert(c);
                 if (success == true)
                 {
                     MessageBox.Show("New Appointment Successfully Inserted");
@@ -59,8 +60,9 @@ namespace Econtact
             Emri.Text = "";
             Mbiemri.Text = "";
             Numri.Text = "";
-            Data.Text = "";
-            Koha.Text = "";
+            datepicker.Value.ToShortDateString();
+            timepicker.Value.ToString("yyyy-MM-dd");
+
             terminet_id.Text = "";
         }
 
@@ -79,8 +81,9 @@ namespace Econtact
             Emri.Text = dgvterminetList.Rows[rowIndex].Cells[1].Value.ToString();
             Mbiemri.Text = dgvterminetList.Rows[rowIndex].Cells[2].Value.ToString();
             Numri.Text = dgvterminetList.Rows[rowIndex].Cells[3].Value.ToString();
-            Data.Text = dgvterminetList.Rows[rowIndex].Cells[4].Value.ToString();
-            Koha.Text = dgvterminetList.Rows[rowIndex].Cells[4].Value.ToString();
+            datepicker.Text = dgvterminetList.Rows[rowIndex].Cells[4].Value.ToString();
+            timepicker.Text = dgvterminetList.Rows[rowIndex].Cells[5].Value.ToString();
+
         }
 
         private void update_termin(object sender, EventArgs e)
@@ -89,8 +92,9 @@ namespace Econtact
             c.Emri_tr = Emri.Text;
             c.Mbiemri_tr = Mbiemri.Text;
             c.Numri_tr = Numri.Text;
-            c.Data_tr = Data.Text;
-            c.Koha_tr = Koha.Text;
+            c.Data_tr = datepicker.Value.ToShortDateString();
+            c.Koha_tr = timepicker.Value.ToString("yyyy-MM-dd");
+
 
             bool success = c.Update(c);
             if (success == true)

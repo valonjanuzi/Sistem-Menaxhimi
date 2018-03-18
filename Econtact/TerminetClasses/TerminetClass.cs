@@ -20,6 +20,7 @@ namespace Econtact.TerminetClasses
         public String Data_tr { get; set; }
         public String Koha_tr { get; set; }
 
+
         static String myconnstrng = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
 
 
@@ -68,6 +69,7 @@ namespace Econtact.TerminetClasses
                 cmd.Parameters.AddWithValue("@Numri_tr", c.Numri_tr);
                 cmd.Parameters.AddWithValue("@Data_tr", c.Data_tr);
                 cmd.Parameters.AddWithValue("@Koha_tr", c.Koha_tr);
+
 
                 conn.Open();
                 int rows = cmd.ExecuteNonQuery();

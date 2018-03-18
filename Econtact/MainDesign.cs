@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Econtact.econtactClasses;
+using Econtact.TerminetClasses;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,6 +19,9 @@ namespace Econtact
             InitializeComponent();
         }
 
+        TerminetClass c = new TerminetClass();
+        contactClass cn = new contactClass();
+
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -33,6 +38,15 @@ namespace Econtact
         {
             Terminet m = new Terminet();
             m.Show();
+        }
+
+        private void MainDesign_Load(object sender, EventArgs e)
+        {
+            DataTable dt = c.Select();
+            dgvterminetList.DataSource = dt;
+
+            DataTable dtt = cn.Select();
+            dgvContactList.DataSource = dtt;
         }
     }
 }
