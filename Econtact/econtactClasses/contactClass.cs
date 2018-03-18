@@ -38,7 +38,7 @@ namespace Econtact.econtactClasses
                 adapter.Fill(dt);
               
             }
-            catch(Exception ex) {
+            catch(Exception ) {
 
             }
             finally
@@ -78,7 +78,7 @@ namespace Econtact.econtactClasses
                 }
 
             }
-            catch(Exception ex)
+            catch(Exception )
             {
                 
             }
@@ -121,7 +121,7 @@ namespace Econtact.econtactClasses
                 }
 
             }
-            catch (Exception ex)
+            catch (Exception )
             {
 
             }
@@ -160,7 +160,7 @@ namespace Econtact.econtactClasses
                 }
 
             }
-            catch (Exception ex)
+            catch (Exception )
             {
 
             }
