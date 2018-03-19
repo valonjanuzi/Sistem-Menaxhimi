@@ -161,6 +161,12 @@ namespace Econtact
             dgvContactList.DataSource = dt;
         }
 
-       
+        internal class Write
+        {
+        }
+
+        internal class RegisterClientScriptBlock
+        {
+        }
     }
 }

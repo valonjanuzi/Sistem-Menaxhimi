@@ -39,7 +39,7 @@
             this.dgvterminetList = new System.Windows.Forms.DataGridView();
             this.label3 = new System.Windows.Forms.Label();
             this.dgvContactList = new System.Windows.Forms.DataGridView();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtboxSearch1 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvterminetList)).BeginInit();
@@ -106,6 +106,7 @@
             this.txtboxSearch.Name = "txtboxSearch";
             this.txtboxSearch.Size = new System.Drawing.Size(773, 26);
             this.txtboxSearch.TabIndex = 26;
+            this.txtboxSearch.TextChanged += new System.EventHandler(this.txtboxSearch_TextChanged);
             // 
             // label8
             // 
@@ -146,13 +147,14 @@
             this.dgvContactList.Size = new System.Drawing.Size(837, 105);
             this.dgvContactList.TabIndex = 28;
             // 
-            // textBox1
+            // txtboxSearch1
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(560, 313);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(773, 26);
-            this.textBox1.TabIndex = 27;
+            this.txtboxSearch1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtboxSearch1.Location = new System.Drawing.Point(560, 313);
+            this.txtboxSearch1.Name = "txtboxSearch1";
+            this.txtboxSearch1.Size = new System.Drawing.Size(773, 26);
+            this.txtboxSearch1.TabIndex = 27;
+            this.txtboxSearch1.TextChanged += new System.EventHandler(this.txtboxSearch1_TextChanged_1);
             // 
             // label4
             // 
@@ -172,7 +174,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.dgvContactList);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtboxSearch1);
             this.Controls.Add(this.txtboxSearch);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.dgvterminetList);
@@ -205,7 +207,7 @@
         private System.Windows.Forms.DataGridView dgvterminetList;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DataGridView dgvContactList;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtboxSearch1;
         private System.Windows.Forms.Label label4;
     }
 }
