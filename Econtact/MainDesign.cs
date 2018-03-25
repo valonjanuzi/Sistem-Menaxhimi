@@ -46,7 +46,7 @@ namespace Econtact
         private void MainDesign_Load(object sender, EventArgs e)
         {
 
-            MessageBox.Show(Date.Now.ToLongDateString());
+ 
             
             DataTable dt = c.Select();
             dgvterminetList.DataSource = dt;
@@ -86,6 +86,12 @@ namespace Econtact
 
         private class Write
         {
+        }
+
+        private void chatClick(object sender, EventArgs e)
+        {
+            Chat_Client_App m = new Chat_Client_App();
+            m.Show();
         }
     }
 }

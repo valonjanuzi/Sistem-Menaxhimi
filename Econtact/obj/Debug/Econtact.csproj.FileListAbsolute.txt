@@ -19,7 +19,6 @@ C:\Users\Valon\Desktop\Visual Studio Project\Econtact\obj\Debug\Econtact.csproj.
 C:\Users\Valon\Desktop\Visual Studio Project\Econtact\obj\Debug\Econtact.csproj.CoreCompileInputs.cache
 C:\Users\Valon\Desktop\Visual Studio Project\Econtact\obj\Debug\Econtact.exe
 C:\Users\Valon\Desktop\Visual Studio Project\Econtact\obj\Debug\Econtact.pdb
-C:\Users\Valon\Desktop\Visual Studio Project\Econtact\obj\Debug\Econtact.csprojResolveAssemblyReference.cache
 C:\Users\Valon\Desktop\Visual Studio Project\Econtact\obj\Debug\Econtact.MainDesign.resources
 C:\Users\Valon\Desktop\Visual Studio Project\Econtact\obj\Debug\Econtact.Terminet.resources
 C:\Users\Hp\Desktop\Programim i avancum projekti\Econtact\bin\Debug\Econtact.mdf
@@ -34,3 +33,6 @@ C:\Users\Hp\Desktop\Programim i avancum projekti\Econtact\obj\Debug\Econtact.csp
 C:\Users\Hp\Desktop\Programim i avancum projekti\Econtact\obj\Debug\Econtact.csproj.CoreCompileInputs.cache
 C:\Users\Hp\Desktop\Programim i avancum projekti\Econtact\obj\Debug\Econtact.exe
 C:\Users\Hp\Desktop\Programim i avancum projekti\Econtact\obj\Debug\Econtact.pdb
+C:\Users\Valon\Desktop\Visual Studio Project\Econtact\obj\Debug\Econtact.Chat_Client_App.resources
+C:\Users\Valon\Desktop\Visual Studio Project\Econtact\obj\Debug\Econtact.csprojResolveAssemblyReference.cache
+C:\Users\Valon\Desktop\Visual Studio Project\Econtact\obj\Debug\Econtact.Login.resources

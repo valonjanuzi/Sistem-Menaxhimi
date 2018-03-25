@@ -61,6 +61,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chat_Client_App.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chat_Client_App.Designer.cs">
+      <DependentUpon>Chat_Client_App.cs</DependentUpon>
+    </Compile>
     <Compile Include="Econtact.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +74,12 @@
       <DependentUpon>Econtact.cs</DependentUpon>
     </Compile>
     <Compile Include="econtactClasses\contactClass.cs" />
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainDesign.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,8 +95,14 @@
       <DependentUpon>Terminet.cs</DependentUpon>
     </Compile>
     <Compile Include="TerminetClasses\TerminetClass.cs" />
+    <EmbeddedResource Include="Chat_Client_App.resx">
+      <DependentUpon>Chat_Client_App.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Econtact.resx">
       <DependentUpon>Econtact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainDesign.resx">
       <DependentUpon>MainDesign.cs</DependentUpon>
