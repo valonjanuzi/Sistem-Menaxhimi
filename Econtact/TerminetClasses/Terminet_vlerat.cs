@@ -20,6 +20,6 @@ namespace Econtact.TerminetClasses
         public String Data_tr { get; set; }
         public String Koha_tr { get; set; }
 
-
+   
     }
 }

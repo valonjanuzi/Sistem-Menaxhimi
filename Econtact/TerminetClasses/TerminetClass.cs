@@ -10,11 +10,17 @@ using System.Threading.Tasks;
 
 namespace Econtact.TerminetClasses
 {
-    class TerminetClass : Terminet_vlerat
+
+    interface IEquatable<T>
+    {
+        bool Insert(T obj);
+        bool Update(T obj);
+        bool Delete(T obj);
+    }
+    class TerminetClass : Terminet_vlerat, IEquatable<TerminetClass>
     {
         static String myconnstrng = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
-        
-        
+      
 
         //select data from database
         public DataTable Select()

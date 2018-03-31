@@ -9,7 +9,14 @@ using System.Threading.Tasks;
 
 namespace Econtact.econtactClasses
 {
-    class KlientiClass : Kantakti_vlerat
+
+    interface IEquatable<T>
+    {
+        bool Insert(T obj);
+        bool Update(T obj);
+        bool Delete(T obj);
+    }
+    class KlientiClass : Kantakti_vlerat, IEquatable<KlientiClass>
     {
 
         static String myconnstrng = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
