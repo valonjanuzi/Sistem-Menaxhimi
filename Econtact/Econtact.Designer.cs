@@ -71,9 +71,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(472, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(180, 48);
+            this.label1.Size = new System.Drawing.Size(143, 48);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Kontakti";
+            this.label1.Text = "Klienti";
             // 
             // IblContactID
             // 
@@ -82,9 +82,9 @@
             this.IblContactID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.IblContactID.Location = new System.Drawing.Point(32, 142);
             this.IblContactID.Name = "IblContactID";
-            this.IblContactID.Size = new System.Drawing.Size(103, 25);
+            this.IblContactID.Size = new System.Drawing.Size(85, 25);
             this.IblContactID.TabIndex = 2;
-            this.IblContactID.Text = "Kontakt ID";
+            this.IblContactID.Text = "Klient ID";
             // 
             // txtbocContactID
             // 

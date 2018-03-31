@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Econtact.econtactClasses;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
@@ -9,20 +10,11 @@ using System.Threading.Tasks;
 
 namespace Econtact.TerminetClasses
 {
-    class TerminetClass
+    class TerminetClass : Terminet_vlerat
     {
-
-        //Getter and seter
-        public int Terminet_ID { get; set; }
-        public String Emri_tr { get; set; }
-        public String Mbiemri_tr { get; set; }
-        public String Numri_tr { get; set; }
-        public String Data_tr { get; set; }
-        public String Koha_tr { get; set; }
-
-
         static String myconnstrng = ConfigurationManager.ConnectionStrings["connString"].ConnectionString;
-
+        
+        
 
         //select data from database
         public DataTable Select()
@@ -31,6 +23,7 @@ namespace Econtact.TerminetClasses
             DataTable dt = new DataTable();
             try
             {
+                
                 string sql = "SELECT * FROM tbl_terminet";
 
                 SqlCommand cmd = new SqlCommand(sql, conn);
@@ -55,8 +48,9 @@ namespace Econtact.TerminetClasses
         public bool Insert(TerminetClass c)
         {
             bool isSuccess = false;
-
             SqlConnection conn = new SqlConnection(myconnstrng);
+            DataTable dt = new DataTable();
+
             try
             {
 
@@ -96,9 +90,11 @@ namespace Econtact.TerminetClasses
         }
         public bool Update(TerminetClass c)
         {
+            SqlConnection conn = new SqlConnection(myconnstrng);
+            DataTable dt = new DataTable();
             bool isSuccess = false;
 
-            SqlConnection conn = new SqlConnection(myconnstrng);
+          
             try
             {
 
@@ -139,9 +135,10 @@ namespace Econtact.TerminetClasses
 
         public bool Delete(TerminetClass c)
         {
+            SqlConnection conn = new SqlConnection(myconnstrng);
+            DataTable dt = new DataTable();
             bool isSuccess = false;
 
-            SqlConnection conn = new SqlConnection(myconnstrng);
             try
             {
 
@@ -176,13 +173,6 @@ namespace Econtact.TerminetClasses
             return isSuccess;
         }
 
-
-
-
-
-
-
-
-
+        
     }
 }

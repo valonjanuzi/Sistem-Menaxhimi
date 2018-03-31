@@ -47,6 +47,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="SimpleTCP, Version=1.0.24.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SimpleTCP.1.0.24\lib\net45\SimpleTCP.dll</HintPath>
+    </Reference>
+    <Reference Include="Socket, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Socket.2.1.0\lib\Socket.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -64,7 +70,7 @@
     <Compile Include="Chat_Client_App.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chat_Client_App.Designer.cs">
+    <Compile Include="Chat_Client_App.designer.cs">
       <DependentUpon>Chat_Client_App.cs</DependentUpon>
     </Compile>
     <Compile Include="Econtact.cs">
@@ -73,7 +79,9 @@
     <Compile Include="Econtact.Designer.cs">
       <DependentUpon>Econtact.cs</DependentUpon>
     </Compile>
-    <Compile Include="econtactClasses\contactClass.cs" />
+    <Compile Include="eKlientiClasses\KlientiClass.cs" />
+    <Compile Include="eKlientiClasses\Kantakti_vlerat.cs" />
+    <Compile Include="metodat.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +103,7 @@
       <DependentUpon>Terminet.cs</DependentUpon>
     </Compile>
     <Compile Include="TerminetClasses\TerminetClass.cs" />
+    <Compile Include="TerminetClasses\Terminet_vlerat.cs" />
     <EmbeddedResource Include="Chat_Client_App.resx">
       <DependentUpon>Chat_Client_App.cs</DependentUpon>
     </EmbeddedResource>
@@ -119,6 +128,7 @@
     <EmbeddedResource Include="Terminet.resx">
       <DependentUpon>Terminet.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\DataSources\Econtact.Properties.Resources.datasource" />
     <None Include="Properties\DataSources\Econtact.Properties.Settings.datasource" />
     <None Include="Properties\Settings.settings">
@@ -155,5 +165,6 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

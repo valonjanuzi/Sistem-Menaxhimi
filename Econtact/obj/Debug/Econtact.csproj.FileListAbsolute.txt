@@ -34,5 +34,9 @@ C:\Users\Hp\Desktop\Programim i avancum projekti\Econtact\obj\Debug\Econtact.csp
 C:\Users\Hp\Desktop\Programim i avancum projekti\Econtact\obj\Debug\Econtact.exe
 C:\Users\Hp\Desktop\Programim i avancum projekti\Econtact\obj\Debug\Econtact.pdb
 C:\Users\Valon\Desktop\Visual Studio Project\Econtact\obj\Debug\Econtact.Chat_Client_App.resources
-C:\Users\Valon\Desktop\Visual Studio Project\Econtact\obj\Debug\Econtact.csprojResolveAssemblyReference.cache
 C:\Users\Valon\Desktop\Visual Studio Project\Econtact\obj\Debug\Econtact.Login.resources
+C:\Users\Valon\Desktop\Visual Studio Project\Econtact\bin\Debug\SimpleTCP.dll
+C:\Users\Valon\Desktop\Visual Studio Project\Econtact\bin\Debug\Socket.dll
+C:\Users\Valon\Desktop\Visual Studio Project\Econtact\bin\Debug\Socket.pdb
+C:\Users\Valon\Desktop\Visual Studio Project\Econtact\bin\Debug\Socket.xml
+C:\Users\Valon\Desktop\Visual Studio Project\Econtact\obj\Debug\Econtact.csprojResolveAssemblyReference.cache

@@ -1,0 +1,11 @@
+C:\Users\Valon\Desktop\Visual Studio Project\Client\bin\Debug\Client.exe.config
+C:\Users\Valon\Desktop\Visual Studio Project\Client\bin\Debug\Client.exe
+C:\Users\Valon\Desktop\Visual Studio Project\Client\bin\Debug\Client.pdb
+C:\Users\Valon\Desktop\Visual Studio Project\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+C:\Users\Valon\Desktop\Visual Studio Project\Client\obj\Debug\Client.Form1.resources
+C:\Users\Valon\Desktop\Visual Studio Project\Client\obj\Debug\Client.Properties.Resources.resources
+C:\Users\Valon\Desktop\Visual Studio Project\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+C:\Users\Valon\Desktop\Visual Studio Project\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\Valon\Desktop\Visual Studio Project\Client\obj\Debug\Client.exe
+C:\Users\Valon\Desktop\Visual Studio Project\Client\obj\Debug\Client.pdb
+C:\Users\Valon\Desktop\Visual Studio Project\Client\bin\Debug\SimpleTCP.dll

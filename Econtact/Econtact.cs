@@ -14,13 +14,13 @@ using System.Runtime.InteropServices;
 
 namespace Econtact
 {
-    public partial class Econtact : Form
+    public partial class Econtact : Form,KlientiClass
     {
         public Econtact()
         {
             InitializeComponent();
         }
-        contactClass c = new contactClass();
+       
        
 
        
@@ -46,7 +46,7 @@ namespace Econtact
         private void btnAdd_Click(object sender, EventArgs e)
         {
             // get the value from input fields
-            c.FirstName = txtboxFirstName.Text;
+            FirstName = txtboxFirstName.Text;
             c.LastName = txtboxLastName.Text;
             c.ContactNo = txtbocContactNumber.Text;
             c.Address = txtboxAddress.Text;
@@ -166,6 +166,10 @@ namespace Econtact
         }
 
         internal class RegisterClientScriptBlock
+        {
+        }
+
+        internal class TerminetClasses
         {
         }
     }

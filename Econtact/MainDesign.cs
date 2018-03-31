@@ -22,7 +22,7 @@ namespace Econtact
         }
 
         TerminetClass c = new TerminetClass();
-        contactClass cn = new contactClass();
+        KlientiClass cn = new KlientiClass();
 
        
 
@@ -93,5 +93,7 @@ namespace Econtact
             Chat_Client_App m = new Chat_Client_App();
             m.Show();
         }
+
+        
     }
 }
